@@ -118,144 +118,159 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="play.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="playButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="play.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 350</value>
+  <data name="playButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 284</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="play.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="playButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="playButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="play.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 52</value>
+  <data name="playButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 42</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="play.TabIndex" type="System.Int32, mscorlib">
+  <data name="playButton.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="play.Text" xml:space="preserve">
+  <data name="playButton.Text" xml:space="preserve">
     <value>Play</value>
   </data>
-  <data name="&gt;&gt;play.Name" xml:space="preserve">
-    <value>play</value>
+  <data name="&gt;&gt;playButton.Name" xml:space="preserve">
+    <value>playButton</value>
   </data>
-  <data name="&gt;&gt;play.Type" xml:space="preserve">
+  <data name="&gt;&gt;playButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;play.Parent" xml:space="preserve">
+  <data name="&gt;&gt;playButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;play.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="stop.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="stop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>277, 350</value>
-  </data>
-  <data name="stop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 52</value>
-  </data>
-  <data name="stop.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="stop.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="&gt;&gt;stop.Name" xml:space="preserve">
-    <value>stop</value>
-  </data>
-  <data name="&gt;&gt;stop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;stop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;stop.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;playButton.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 260</value>
+  <data name="stopButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 56</value>
+  <data name="stopButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 284</value>
   </data>
-  <data name="trackBar1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="stopButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
-    <value>trackBar1</value>
+  <data name="stopButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 42</value>
   </data>
-  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="stopButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
+  <data name="stopButton.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;stopButton.Name" xml:space="preserve">
+    <value>stopButton</value>
+  </data>
+  <data name="&gt;&gt;stopButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stopButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;stopButton.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="volumeBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 211</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 299</value>
+  <data name="volumeBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 16</value>
+  <data name="volumeBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 45</value>
   </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="volumeBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Volume:</value>
+  <data name="&gt;&gt;volumeBar.Name" xml:space="preserve">
+    <value>volumeBar</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
+  <data name="&gt;&gt;volumeBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;volumeBar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;volumeBar.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="volumeText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>337, 299</value>
+  <data name="volumeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 243</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 16</value>
+  <data name="volumeText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="volumeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>NaN%</value>
+  <data name="volumeText.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="label2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="volumeText.Text" xml:space="preserve">
+    <value>Volume:</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="&gt;&gt;volumeText.Name" xml:space="preserve">
+    <value>volumeText</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+  <data name="&gt;&gt;volumeText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;volumeText.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;volumeText.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="volumePercent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="volumePercent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 243</value>
+  </data>
+  <data name="volumePercent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="volumePercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="volumePercent.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="volumePercent.Text" xml:space="preserve">
+    <value>NaN%</value>
+  </data>
+  <data name="volumePercent.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;volumePercent.Name" xml:space="preserve">
+    <value>volumePercent</value>
+  </data>
+  <data name="&gt;&gt;volumePercent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volumePercent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;volumePercent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="logoImg.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQIAAAECCAIAAACaLU4HAAAABGdBTUEAALGPC/xhBQAA/8dJREFUeF7s
         XQV8FNfXDUTW3X2TjSdACO4uxV1arC0FWuqUurvgxd3d3SnulkAg7pusu9t338ySplhbSlv6/7i/29e3
@@ -1558,113 +1573,95 @@
         SCBEAxISogEJCdGAhARCNCD5v8/9+/8Ef7DFVt9xAqEAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 12</value>
+  <data name="logoImg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 10</value>
   </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>349, 231</value>
+  <data name="logoImg.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="logoImg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 188</value>
+  </data>
+  <data name="logoImg.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
+  <data name="&gt;&gt;logoImg.Name" xml:space="preserve">
+    <value>logoImg</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;logoImg.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;logoImg.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>340, 428</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 16</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>AquaWolf04</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;logoImg.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="authorText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-3, 429</value>
+  <data name="authorText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 348</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 16</value>
+  <data name="authorText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="authorText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Version</value>
+  <data name="authorText.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="authorText.Text" xml:space="preserve">
+    <value>AquaWolf04</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+  <data name="&gt;&gt;authorText.Name" xml:space="preserve">
+    <value>authorText</value>
+  </data>
+  <data name="&gt;&gt;authorText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;authorText.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;authorText.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+  <data name="informationText.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 426</value>
+  <data name="informationText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 346</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 16</value>
+  <data name="informationText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+  <data name="informationText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="informationText.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
+  <data name="informationText.Text" xml:space="preserve">
     <value>Information</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;informationText.Name" xml:space="preserve">
+    <value>informationText</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+  <data name="&gt;&gt;informationText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;informationText.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;informationText.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1771,7 +1768,7 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>424, 444</value>
+    <value>318, 361</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4568,6 +4565,9 @@
         ////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>FMRadioManele.ro</value>

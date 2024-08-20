@@ -22,63 +22,61 @@ namespace Radio
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void playButton_Click(object sender, EventArgs e)
         {
-            awplayer.URL = @"http://141.94.96.128:8054/stream"; //STREAM URL
+            awplayer.URL = @"https://ssl.servereradio.ro/8054/stream";
             awplayer.controls.play();
             string state = awplayer.playState.ToString();
             if (state == "wmppsTransitioning")
             {
-                play.Enabled = false;
-                stop.Enabled = true;
+                playButton.Enabled = false;
+                stopButton.Enabled = true;
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void stopButton_Click(object sender, EventArgs e)
         {
             awplayer.controls.stop();
             string state = awplayer.playState.ToString();
             if (state == "wmppsStopped")
             {
-                play.Enabled = true;
-                stop.Enabled = false;
+                playButton.Enabled = true;
+                stopButton.Enabled = false;
             }
         }
 
         private void MainMenu_Load(object sender, EventArgs e)
         {
             awplayer.settings.volume = 10;
-            label2.Visible = true;
-            label2.Text = trackBar1.Value.ToString() + "%";
-            label4.Text = awplayer.versionInfo.ToString();
+            volumePercent.Visible = true;
+            volumePercent.Text = volumeBar.Value.ToString() + "%";
             string isOnline = awplayer.isOnline.ToString();
-            label5.Visible = false;
-            stop.Enabled = false;
+            informationText.Visible = false;
+            stopButton.Enabled = false;
             if (isOnline == "False")
             {
-                label5.Text = "You currently offline!";
-                label5.Visible = true;
-                play.Enabled = false;
-                stop.Enabled = false;
+                informationText.Text = "You currently offline!";
+                informationText.Visible = true;
+                playButton.Enabled = false;
+                stopButton.Enabled = false;
             }
         }
 
-        private void trackBar1_Scroll(object sender, EventArgs e)
+        private void volumeBar_Scroll(object sender, EventArgs e)
         {
-            awplayer.settings.volume = trackBar1.Value;
-            label2.Text = trackBar1.Value.ToString()+"%";
+            awplayer.settings.volume = volumeBar.Value;
+            volumePercent.Text = volumeBar.Value.ToString()+"%";
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void logoImg_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://fmradiomanele.ro");
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void authorText_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://aquawolf04.com");
 
         }
-
     }
 }
